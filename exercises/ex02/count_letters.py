@@ -9,9 +9,9 @@ i = 0
 a = (len(word))
 num: int = 0
 
-while i <= (a - 1):
-    if word[i] == letter:
+while i <= a:
+    if word == letter:
         num = num + 1
     i = i + 1 
 
-print(num)
+print(("Count:"), (num))
