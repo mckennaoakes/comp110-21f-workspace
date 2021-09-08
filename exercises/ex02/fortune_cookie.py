@@ -11,12 +11,12 @@ __author__ = 730323932
 # It will evaluate to an int value >= 1 and <= 100. 
 from random import randint
 
-cookie1= "Your dream lover will walk into your life today."
-cookie2= "You will ace all of the tests you take today."
-cookie3= "Look out for new opportunities coming your way in the next week."
-cookie4= "You will achieve all of your life goals if you keep working towards them."
+cookie1 = "Your dream lover will walk into your life today."
+cookie2 = "You will ace all of the tests you take today."
+cookie3 = "Look out for new opportunities coming your way in the next week."
+cookie4 = "You will achieve all of your life goals if you keep working towards them."
 
-fortune= (randint(1, 4))
+fortune = (randint(1, 4))
 print("Your fortune cookie says...")
 if fortune == 1:
     print(cookie1)
